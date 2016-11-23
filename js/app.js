@@ -59,7 +59,7 @@
 		};
 
 		var weatherOptions = {
-		  url: 'http://api.openweathermap.org/data/2.5/forecast?id=1277333&APPID=f32739e98977f8602979fb6fa944da7f',
+		  url: 'https://api.openweathermap.org/data/2.5/forecast?id=1277333&APPID=f32739e98977f8602979fb6fa944da7f',
 		  dataType: 'json',
 		  success: updatePage,
 		  error: displayError
